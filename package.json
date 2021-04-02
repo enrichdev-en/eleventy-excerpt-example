@@ -1,0 +1,17 @@
+{
+  "name": "eleventy_excerpt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  },
+  "scripts": {
+    "build": "npx eleventy",
+    "serve": "npx eleventy --serve",
+    "debug": "DEBUG=* npx eleventy"
+  },
+  "author": "",
+  "license": "ISC"
+}
